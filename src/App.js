@@ -1,12 +1,12 @@
 import './App.css';
-import Show from './Show.js';
+import ShowB from './ShowB.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>test</p>
-<Show />
+       
+<ShowB />
 
       </header>
     </div>
