@@ -1,5 +1,8 @@
 import React from "react";
 
+function random_file() {
+	var fs=require('graceful-fs')
+}
 
 function sleep(time){
 	 return new Promise(resolve => setTimeout(resolve, time))
