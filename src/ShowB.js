@@ -41,8 +41,8 @@ setIndex(random_with_range(0, len))
 }
 
 const myStyle_horizontal={
-    width:"310px",
-    height:"270px",
+    width:"320px",
+    height:"280px",
     padding:"5px",
     borderRadius:"15px",
     border:"2px solid #555"
