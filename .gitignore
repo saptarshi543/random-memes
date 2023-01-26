@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+*.swp
+*.txt
 /.pnp
 .pnp.js
 
