@@ -24,15 +24,30 @@ function random_with_range( max,min){//this function is working...
   }
 
 
+
+
+
+
+
+
+
+
+
+
+
 function Driver(){
 	// const [refresh, setRefresh]=React.useState(0);
   const [index ,setIndex]=React.useState(0); 
 const len=listOfImages.length
 
+const test=()=> {
+  console.log("I'm being called");
+}
+
 for(let i=0;i<10;i++){
 
 
-sleep(15000).then(()=>{
+sleep(3000).then(()=>{
 
 setIndex(random_with_range(0, len))
    // setRefresh(Math.random())
@@ -51,6 +66,8 @@ const myStyle_horizontal={
 return(
 <div>
 <img style={myStyle_horizontal} src={listOfImages[index]} alt=""/>
+<br></br>
+<button onClick={test}>TESTing</button>
 </div>
   )
 
