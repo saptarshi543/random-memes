@@ -41,13 +41,13 @@ function Driver(){
 const len=listOfImages.length
 
 const test=()=> {
-  console.log("I'm being called");
+ setIndex(random_with_range(0, len))
 }
 
 for(let i=0;i<10;i++){
 
 
-sleep(3000).then(()=>{
+sleep(15000).then(()=>{
 
 setIndex(random_with_range(0, len))
    // setRefresh(Math.random())
@@ -67,7 +67,7 @@ return(
 <div>
 <img style={myStyle_horizontal} src={listOfImages[index]} alt=""/>
 <br></br>
-<button onClick={test}>TESTing</button>
+<button onClick={test}>Next Random Meme</button>
 </div>
   )
 
