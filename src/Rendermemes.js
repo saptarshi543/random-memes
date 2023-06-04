@@ -24,7 +24,7 @@ const update=()=>{
 	
 }
 
-console.log(props.arr);
+// console.log(props.arr);
 
 
 
